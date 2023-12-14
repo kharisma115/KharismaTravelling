@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+.logo{
+    font-size: 200%;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+.nav-link{
+    font-family: 'Dela Gothic One', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+/* .menu{
+    background:linear-gradient(45deg, rgb(247, 247, 248), rgb(254, 254, 255));
+    padding:15px 9%;
+    padding-bottom: 100px;
+    
+} */
+
+.menu .heading{
+    text-align: center;
+    padding-bottom: 15px;
+    color:#0e0d0d;
+    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+    font-size: 50px;
+}
+
+.menu .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap:15px;
+}
+
+.menu .box-container .box{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    padding:30px 20px;
+}
+
+.menu .box-container .box img{
+    height: 100px;
+}
+
+.menu .box-container .box h3{
+    color:#444;
+    font-size: 22px;
+    padding:10px 0;
+}
+
+.menu .box-container .box p{
+    color:#777;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.menu .box-container .box .btn{
+    margin-top: 10px;
+    display: inline-block;
+    background:#333;
+    color:#fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+
+
+.menu .box-container .box .btn:hover{
+    letter-spacing: 1px;
+}
+
+.menu .box-container .box:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: scale(1.03);
+}
+
+@media (max-width:768px){
+    .menu{
+        padding:20px;
+    }
+}
+
+p{
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    }
+
+    #home {
+        width: 100%;
+        height: calc(100vh - 70px);
+        background: url("https://wallpapercave.com/wp/wp4782956.jpg") center center;
+        background-size: cover;
+        position: relative;
+        margin-top: 70px;
+        padding: 0;
+      }
+      #blogg {
+        width: 100%;
+        height: calc(100vh - 70px);
+        background: url("https://www.barantum.com/blog/wp-content/uploads/2019/01/Wisata-Indonesia-Mempunyai-Peluang-Bisnis.jpg") center center;
+        background-size: cover;
+        position: relative;
+        margin-top: 70px;
+        padding: 0;
+      }
+      #speciall {
+        width: 100%;
+        height: calc(100vh - 70px);
+        background: url("https://wallpapercave.com/wp/wp4782898.jpg") center center;
+        background-size: cover;
+        position: relative;
+        margin-top: 70px;
+        padding: 0;
+      }
+
+      .btn-color{
+        background-color: #0e1c36;
+        color: #fff;
+        
+      }
+      
+      .profile-image-pic{
+        height: 200px;
+        width: 200px;
+        object-fit: cover;
+      }
+      
+      
+      
+      .cardbody-color{
+        background-color: #ebf2fa;
+      }
+      
+      a{
+        text-decoration: none;
+      }
+
+      .home_about{
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding: 100px 100px;
+        display: flex;
+        align-items: center;
+      }
+      .image_about{
+        width: 54%;
+        height: auto;
+        border-radius: 4px;
+        overflow: hidden;
+      }
+      .about_img{
+        width: 100%;
+        height: 70vh;
+        object-fit: cover;
+        object-position: center;
+      }
+      .content_section{
+        position: absolute;
+        width: 46%;
+        height: auto;
+        border-radius: 4px;
+        right: 100px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: start;
+        row-gap: 1.1rem;
+        padding: 30px 30px 30px 160px;
+        box-shadow: 5px 5px 10px rgb(68, 27, 5, 0.12);
+        border: 1px solid rgba(143, 143, 143);
+      }
+      .about_title{
+        font-size: 1.9rem;
+        font-weight: 600;
+        letter-spacing: 0.1rem;
+        color: var(--primary);
+      }
+      
+      .about_btn{
+        border-radius: 4px !important;
+        margin-bottom: 1.3rem;
+      }
+      /* Travel Section */
+      .travel-categories-section{
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding: 100px 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .desc{
+        font-size: 1.1rem;
+        font-weight: 500;
+        text-align: center;
+        color: var(--primary);
+        margin-bottom: 3rem;
+      }
+      .category-box-section{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 3.5rem;
+      }
+      .category-box{
+        width: 400px;
+        height: auto;
+        background: var(--fourth);
+        border-radius: 4px;
+        overflow: hidden;
+        cursor: pointer;
+        transition: all 0.5s ease-out;
+      }
+      .category-box:hover{
+        box-shadow: 2px 5px rgba(0, 0, 0, 0.25);
+        transform: translate(-15px);
+      }
+      .cat-img{
+        width: 100%;
+        height: 40vh;
+        object-fit: cover;
+        object-position: center;
+      }
+      .cat-title{
+        font-size: 1.5rem;
+        font-weight: 600;
+        letter-spacing: 0.1rem;
+        color: var(--primary);
+        padding: 20px;
+        text-align: center;
+        transition: 0.3s ease-out;
+      }
+      .category-box:hover .cat-title{
+        color: var(--secondary);
+      }
+
+      /* Blog */
+      .blog_section{
+        width: 100%;
+        height: auto;
+        padding: 60px 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        row-gap: 1.2rem;
+        flex-direction: column;
+      }
+      .blog_section_box{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 3.5rem;
+      }
+
+      .blog_box{
+        width: 400px;
+        height: auto;
+        border: rgba(65, 65, 65, 0.0);
+        border-radius: 4px;
+        box-shadow: 0px 0px 20px rgba(68, 27, 5, 0.3);
+        transition: 0.3 ease-out;
+      }
+      .blog_box:hover{
+        box-shadow: 3px 4px 15px rgba(68, 27, 5, 0.42);
+      }
+      .blog_img{
+        width: 100%;
+        height: 30vh;
+        object-fit: cover;
+        object-position: center;
+      }
+      .blog_data{
+        padding: 15px 20px;
+      }
+      .date{
+        font-size: 0.80rem;
+        color: var(--secondary);
+        margin-bottom: 0.7rem;
+      }
+      .date{
+        font-size: 0.78rem;
+      }
+      .blog_title{
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: var(--primary);
+        letter-spacing: 0.1rem;
+        margin-bottom: 0.4rem;
+      }
+      .blog_desc{
+        font-size: 0.89rem;
+        color: var(--fourth);
+        margin-bottom: 1.4rem;
+        line-height: 1.13rem;
+      }
+      
+      
+      
+
